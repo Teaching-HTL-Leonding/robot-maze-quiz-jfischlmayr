@@ -1,4 +1,5 @@
 ﻿using Maze.Library;
+using System;
 
 namespace Maze.Solver
 {
@@ -31,16 +32,47 @@ namespace Maze.Solver
         /// </remarks>
         public void MoveRobotToExit()
         {
-            // Here you have to add your code
-
-            // Trivial sample algorithm that can just move right
             var reachedEnd = false;
             robot.ReachedExit += (_, __) => reachedEnd = true;
-
+            Random rnd = new Random();
+            int moves = 0;
             while (!reachedEnd)
             {
-                robot.Move(Direction.Right);
+                robot.TryMove((Direction)rnd.Next(0, 4));
+
+                moves++;
+                if (moves == 10000000)
+                {
+                    robot.HaltAndCatchFire();
+                    break;
+                }
             }
         }
+
+        //bool reachedEnd = false;
+
+
+        /*public void MakeAMove(Direction? whereICameFrom)
+        {
+            
+            if (reachedEnd) return;
+
+            if (robot.TryMove(Direction.Up) && whereICameFrom != Direction.Down)
+            {
+                MakeAMove(Direction.Down);
+            }
+            else if (robot.TryMove(Direction.Right) && whereICameFrom != Direction.Left)
+            {
+                MakeAMove(Direction.Left);
+            }
+            else if (robot.TryMove(Direction.Down) && whereICameFrom != Direction.Up)
+            {
+                MakeAMove(Direction.Up);
+            }
+            else if (robot.TryMove(Direction.Left) && whereICameFrom != Direction.Right)
+            {
+                MakeAMove(Direction.Right);
+            }
+        }*/
     }
 }

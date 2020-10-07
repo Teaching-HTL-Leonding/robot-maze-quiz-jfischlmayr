@@ -1,0 +1,12 @@
+C:\Users\Jan\Documents\Schule\C#\Robot-Maze-Quiz\Maze.Library\bin\Debug\net5.0\Maze.Library.deps.json
+C:\Users\Jan\Documents\Schule\C#\Robot-Maze-Quiz\Maze.Library\bin\Debug\net5.0\Maze.Library.dll
+C:\Users\Jan\Documents\Schule\C#\Robot-Maze-Quiz\Maze.Library\bin\Debug\net5.0\ref\Maze.Library.dll
+C:\Users\Jan\Documents\Schule\C#\Robot-Maze-Quiz\Maze.Library\bin\Debug\net5.0\Maze.Library.pdb
+C:\Users\Jan\Documents\Schule\C#\Robot-Maze-Quiz\Maze.Library\obj\Debug\net5.0\Maze.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jan\Documents\Schule\C#\Robot-Maze-Quiz\Maze.Library\obj\Debug\net5.0\Maze.Library.AssemblyInfoInputs.cache
+C:\Users\Jan\Documents\Schule\C#\Robot-Maze-Quiz\Maze.Library\obj\Debug\net5.0\Maze.Library.AssemblyInfo.cs
+C:\Users\Jan\Documents\Schule\C#\Robot-Maze-Quiz\Maze.Library\obj\Debug\net5.0\Maze.Library.csproj.CoreCompileInputs.cache
+C:\Users\Jan\Documents\Schule\C#\Robot-Maze-Quiz\Maze.Library\obj\Debug\net5.0\Maze.Library.dll
+C:\Users\Jan\Documents\Schule\C#\Robot-Maze-Quiz\Maze.Library\obj\Debug\net5.0\ref\Maze.Library.dll
+C:\Users\Jan\Documents\Schule\C#\Robot-Maze-Quiz\Maze.Library\obj\Debug\net5.0\Maze.Library.pdb
+C:\Users\Jan\Documents\Schule\C#\Robot-Maze-Quiz\Maze.Library\obj\Debug\net5.0\Maze.Library.csprojAssemblyReference.cache
