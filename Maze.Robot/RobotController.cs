@@ -41,7 +41,7 @@ namespace Maze.Solver
                 robot.TryMove((Direction)rnd.Next(0, 4));
 
                 moves++;
-                if (moves == 10000000)
+                if (moves == 1000000)
                 {
                     robot.HaltAndCatchFire();
                     break;
